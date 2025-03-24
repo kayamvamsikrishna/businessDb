@@ -97,7 +97,7 @@ def selectRelatedJoins(request):
     
     '''
 
-    #VAMSIKRISHNA'S MANAGER'S MANAGER DETAILS USING ORM (join the emp table & dept table)
+    #HARSHAD'S MANAGER'S MANAGER DETAILS USING ORM (join the emp table & dept table)
     '''
     WA=Emp.objects.get(ename='HARSHAD')#TAKE THE HARSHAD RECORDS INTO AN OBJECT
     PP=WA.mgr#EXTRACT HARSHAD'S MGR   
